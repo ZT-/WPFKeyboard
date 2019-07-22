@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFKeyboard", "WPFKeyboard\WPFKeyboard.csproj", "{1B56A2AB-181D-4C58-9230-BF3F286A5D35}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC8EB985-A262-4DC3-8D3E-AE38786C8B7D} = {EC8EB985-A262-4DC3-8D3E-AE38786C8B7D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFKeyboard.UI", "WPFKeyboard.UI\WPFKeyboard.UI.csproj", "{F12F830F-6B12-4D83-925B-01B2ABE37D8B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WPFKeyboard.Native", "WPFKeyboard.Native\WPFKeyboard.Native.vcxproj", "{EC8EB985-A262-4DC3-8D3E-AE38786C8B7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B56A2AB-181D-4C58-9230-BF3F286A5D35}.Debug|x86.ActiveCfg = Debug|x86
+		{1B56A2AB-181D-4C58-9230-BF3F286A5D35}.Debug|x86.Build.0 = Debug|x86
+		{1B56A2AB-181D-4C58-9230-BF3F286A5D35}.Release|x86.ActiveCfg = Release|x86
+		{1B56A2AB-181D-4C58-9230-BF3F286A5D35}.Release|x86.Build.0 = Release|x86
+		{F12F830F-6B12-4D83-925B-01B2ABE37D8B}.Debug|x86.ActiveCfg = Debug|x86
+		{F12F830F-6B12-4D83-925B-01B2ABE37D8B}.Debug|x86.Build.0 = Debug|x86
+		{F12F830F-6B12-4D83-925B-01B2ABE37D8B}.Release|x86.ActiveCfg = Release|x86
+		{F12F830F-6B12-4D83-925B-01B2ABE37D8B}.Release|x86.Build.0 = Release|x86
+		{EC8EB985-A262-4DC3-8D3E-AE38786C8B7D}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC8EB985-A262-4DC3-8D3E-AE38786C8B7D}.Debug|x86.Build.0 = Debug|Win32
+		{EC8EB985-A262-4DC3-8D3E-AE38786C8B7D}.Release|x86.ActiveCfg = Release|Win32
+		{EC8EB985-A262-4DC3-8D3E-AE38786C8B7D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F80696F-DFBD-4041-BF91-9ACCB3EAB7B9}
+	EndGlobalSection
+EndGlobal
